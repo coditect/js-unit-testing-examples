@@ -1,0 +1,25 @@
+{
+  "name": "unit-testing",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "ava": "ava tests/ava.js",
+    "jasmine": "JASMINE_CONFIG_PATH=config/jasmine.json jasmine",
+    "jest": "jest tests/jest.test.js",
+    "mocha+node-assert": "mocha tests/mocha+node-assert",
+    "mocha+chai-assert": "mocha tests/mocha+chai-assert",
+    "mocha+chai-expect": "mocha tests/mocha+chai-expect",
+    "qunit": "qunit-cli tests/qunit.js"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "chai": "^3.5.0",
+    "jasmine": "^2.5.3",
+    "jest": "^18.1.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.6",
+    "qunit-cli": "^0.2.0",
+    "qunitjs": "^2.1.1"
+  }
+}
